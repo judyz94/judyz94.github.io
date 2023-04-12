@@ -220,6 +220,10 @@ a:hover {
     margin: 0px 30px;
 }
 
+.project {
+    margin-left: 20px;
+}
+
 /* Styles for contact information */
 .contact-container {
     display: flex;
