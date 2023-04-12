@@ -4,14 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Judy Zapata - Fullstack Developer</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Judy Zapata</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,75 +40,204 @@
       </div>
     </nav>
     
-    <!-- Home Section --> 
-    <section id="start">
+    <!-- Home Section -->
+    <section id="start" class="max-space">
+        <br><br>
       <div class="container text-center">
-        <img src="myphoto.jpg" alt="Judy Zapata" class="rounded-circle mt-5" width="250">
-        <h1>Judy Zapata</h1>
+        <img src="images/photo.jpg" alt="Judy Zapata" class="rounded-circle mt-5 space" width="250">
+        <h1 class="space">Judy Zapata</h1>
         <p class="lead">Desarrolladora Full Stack</p>
-        <a href="#contacto" class="btn btn-lg btn-outline-light mt-3">Contáctame</a>
-        <div class="mt-4">
-          <a href="https://www.linkedin.com/in/judy-zapata/" target="_blank"><i class="fab fa-linkedin fa-2x mr-4"></i></a>
-          <a href="https://github.com/judy-zapata" target="_blank"><i class="fab fa-github fa-2x mr-4"></i></a>
-          <a href="mailto:judy.zapata@gmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
-        </div>
+        <a href="#contact" class="btn btn-lg btn-outline-light mt-3 button-color">Contáctame</a>
+            <div class="mt-4 space">
+              <a href="https://www.linkedin.com/in/judyzapata/" target="_blank">
+                  <i class="fab fa-linkedin fa-2x mr-4"></i>
+              </a>
+              <a href="https://github.com/judyz94" target="_blank">
+                  <i class="fab fa-github fa-2x mr-4"></i>
+              </a>
+              <a href="mailto:judyzh94@gmail.com" target="_blank">
+                  <i class="far fa-envelope fa-2x mr-4"></i>
+              </a>
+              <a href="https://wa.me/573045515475" target="_blank">
+                  <i class="fab fa-whatsapp fa-2x"></i>
+              </a>
+            </div>
        </div>
      </section>
-  
+
     <main>
-      <!-- About Section --> 
+      <!-- About Section -->
       <section id="about">
         <div class="container">
-          <h2>Sobre mí</h2>
-          <p>¡Hola! Soy Judy Zapata, una desarrolladora Full Stack con 2 años y 4 meses de experiencia en el campo de la programación. Mi especialidad es el uso de PHP 
-          con Laravel para el back-end y HTML, CSS y Vue.js para el front-end. Si bien me he enfocado en el back-end, estoy constantemente aprendiendo y expandiendo mis 
-          conocimientos en el front-end para poder ofrecer soluciones completas y creativas a los problemas más complejos. Lo que más me apasiona de la programación es 
-          poder crear soluciones que mejoren la vida de las personas y resolver problemas desafiantes. Estoy comprometida en ofrecer un trabajo de alta calidad y brindar
-          una experiencia de usuario excepcional en cada proyecto en el que trabajo.</p>
+          <h2 class="titles">SOBRE MÍ</h2>
+          <p class="justify-text">
+              ¡Hola! Soy <span class="text-highlight">Judy Zapata</span>, una desarrolladora Full Stack con 2 años y
+              4 meses de experiencia en el campo de la programación. Mi especialidad es el uso de PHP con Laravel para
+              el back-end y HTML, CSS y Vue.js para el front-end. Si bien me he enfocado en el back-end, estoy
+              constantemente aprendiendo y expandiendo mis conocimientos en el front-end para poder ofrecer soluciones
+              completas y creativas a los problemas más complejos.
+          </p>
+          <p class="justify-text">
+              Lo que más me apasiona de la programación es poder crear soluciones que mejoren la vida de las personas y
+              resolver problemas desafiantes. Estoy comprometida en ofrecer un trabajo de alta calidad y brindar una
+              experiencia de usuario excepcional en cada proyecto en el que trabajo.
+          </p>
         </div>
       </section>
 
-      <!-- Skills Section --> 
+      <!-- Skills Section -->
       <section id="skills">
-        <h2>Conocimientos</h2>
-        <ul>
-            <li>PHP</li>
-            <li>Laravel</li>
-            <li>Vue.js</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>MySQL</li>
-            <li>Git</li>
-            <li>Agile Development</li>
-        </ul>
+        <h2 class="titles">MIS CONOCIMIENTOS</h2>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-php fa-3x"></i>
+                          <h5 class="mt-2 subtitle">PHP</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-laravel fa-3x"></i>
+                          <h5 class="mt-2 subtitle">Laravel</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-vuejs fa-3x"></i>
+                          <h5 class="mt-2 subtitle">Vue.js</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-html5 fa-3x"></i>
+                          <h5 class="mt-2 subtitle">HTML</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-css3-alt fa-3x"></i>
+                          <h5 class="mt-2 subtitle">CSS</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-bootstrap fa-3x"></i>
+                          <h5 class="mt-2 subtitle">Bootstrap</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-js fa-3x"></i>
+                          <h5 class="mt-2 subtitle">JavaScript</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fas fa-database fa-3x"></i>
+                          <h5 class="mt-2 subtitle">MySQL</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-git fa-3x"></i>
+                          <h5 class="mt-2 subtitle">Git</h5>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4 col-6 mb-4">
+                      <div class="box">
+                          <i class="fab fa-jira fa-3x"></i>
+                          <h5 class="mt-2 subtitle">Jira</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
 
-      <!-- Languajes Section --> 
-      <section id="languajes">
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Español - Nativo</li>
-            <li>Inglés - Intermedio</li>
-        </ul>
-      </section
+      <!-- Languages Section -->
+      <section id="languages">
+        <h2 class="titles">IDIOMAS</h2>
+          <div class="languages-container">
+              <div class="language-box">
+                  <i class="fas fa-language"></i>
+                  <h2>Español</h2>
+                  <p class="subtitle">Nativo</p>
+              </div>
+              <div class="language-box">
+                  <i class="fas fa-language"></i>
+                  <h2>Inglés</h2>
+                  <p class="subtitle">Intermedio</p>
+              </div>
+          </div>
+      </section>
+    </div>
 
       <!-- Projects Section --> 
       <section id="projects">
-        <h2>Proyectos</h2>
-        <ul>
-            <li><a href="#">Proyecto X</a></li>
-        </ul>
+        <h2 class="titles">PROYECTOS</h2>
+          <div class="projects">
+              <div class="project">
+                  <h5>Título</h5>
+                  <video src="/videos/project-one.mp4" controls></video>
+                  <div class="project-description">
+                      <p>Descripción</p>
+                      <a href="https://github.com"><i class="fa-brands fa-github"></i> Proyecto en GitHub</a>
+                  </div>
+              </div>
+              <div class="project">
+                  <h5>Título</h5>
+                  <video src="/videos/project-two.mp4" controls></video>
+                  <div class="project-description">
+                      <p>Descripción</p>
+                      <a href="https://github.com"><i class="fa-brands fa-github"></i> Proyecto en GitHub</a>
+                  </div>
+              </div>
+          </div>
       </section>
 
-      <!-- Contact Section --> 
+        <!-- Contact Section -->
       <section id="contact">
-        <h2>Contacto</h2>
-        <ul>
-            <li>Email: judyzh94@gmail.com</li>
-            <li>Teléfono: +57 304 5515475</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/judyzapata/">Judy Zapata</a></li>
-        </ul>
+        <h2 class="titles">CONTACTO</h2>
+          <div class="separator">
+              <div class="line"></div>
+          </div>
+
+          <div class="contact-buttons">
+              <a href="https://www.linkedin.com/in/judyzapata/" target="_blank" title="LinkedIn">
+                  <i class="fab fa-linkedin fa-2x mr-4"></i>
+              </a>
+              <a href="https://github.com/judyz94" target="_blank" title="GitHub">
+                  <i class="fab fa-github fa-2x mr-4"></i>
+              </a>
+              <a href="mailto:judyzh94@gmail.com" target="_blank" title="Email">
+                  <i class="far fa-envelope fa-2x mr-4"></i>
+              </a>
+              <a href="https://wa.me/573045515475" target="_blank" title="WhatsApp">
+                  <i class="fab fa-whatsapp fa-2x"></i>
+              </a>
+          </div>
+
+          <br>
+
+          <div class="contact-container">
+              <div class="box">
+                  <i class="fa fa-envelope"></i>
+                  <h5>Email</h5>
+                  <p class="subtitle">judyzh94@gmail.com</p>
+              </div>
+              <div class="box">
+                  <i class="fa fa-phone"></i>
+                  <h5>Teléfono</h5>
+                  <p class="subtitle">+57 304 5515475</p>
+              </div>
+              <div class="box">
+                  <i class="fa fa-map-marker-alt"></i>
+                  <h5>Ubicación</h5>
+                  <p class="subtitle">Medellín, Colombia</p>
+              </div>
+          </div>
       </section>
     </main>
 </body>

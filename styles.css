@@ -1,0 +1,244 @@
+/* Definición de colores */
+:root {
+    --dark-gray: #333333;
+    --light-gray: #f2f2f2;
+    --brown: #C4A944;
+}
+
+/* Estilos globales */
+body {
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--light-gray);
+    margin-top: 0;
+}
+
+a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--brown);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-highlight {
+    color: #C4A944;
+    font-weight: bold;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+.max-space {
+     margin-bottom: 40px;
+}
+
+.button-color {
+    background-color: var(--dark-gray);
+    color: #C4A944;
+}
+
+.titles {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.lists {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styles for about */
+#about {
+    margin-top: 50px;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+/* Styles for skills */
+.container-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #444444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 6px #BB9814;
+    margin-bottom: 20px;
+}
+
+.box i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-2 {
+    flex-basis: 20%;
+}
+
+/* Styles for languages */
+.languages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.language-box {
+    width: 200px;
+    height: 150px;
+    background-color: #4b4b4b;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #C4A944;
+    color: #fff;
+}
+
+.language-box i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.language-box h2 {
+    margin: 0;
+}
+
+.language-box p {
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #C4A944;
+    font-weight: bold;
+}
+
+.card {
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 0px 50px 50px 50px;
+    color: #ffffff;
+}
+
+/* Styles for projects */
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px;
+}
+
+/* Styles for separator */
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+/* Styles for contact information */
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 20px 50px 20px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 55%;
+    height: 3px;
+    background-color: #C4A944;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--dark-gray);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: var(--brown);
+}
+
+/* Estilos de la sección Start */
+#start {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#start h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#start button {
+    background-color: var(--brown);
+    color: var(--light-gray);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#start button:hover {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+}
+
+
+
